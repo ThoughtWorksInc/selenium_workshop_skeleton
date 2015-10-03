@@ -2,7 +2,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Example {
 
@@ -10,7 +10,7 @@ public class Example {
 
     @Before
     public void tearUp() {
-        driver = new HtmlUnitDriver();
+        driver = new FirefoxDriver();
     }
 
     @After
